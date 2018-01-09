@@ -7,4 +7,5 @@ public class HelloServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
         response.getWriter().print("Hello World!");
     }
+
 }
