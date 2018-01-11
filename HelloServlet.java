@@ -5,6 +5,6 @@ import java.io.IOException;
 
 public class HelloServlet extends HttpServlet {
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.getWriter().print("Hello World!");
+        response.getWriter().print("Hello World dear servlet!");
     }
 }
